@@ -1,0 +1,38 @@
+.hero img {
+  width: 100%;
+}
+
+.profile-picture img {
+  width: 500px;
+}
+
+* {
+  box-sizing: border-box;
+  width: 100%;
+  color: white;
+
+}
+
+a {
+  text-align: center;
+  color: white;
+}
+
+header {
+  background-color: #1884a5;
+  color: black;
+}
+
+body {
+  background-color: #1884a5;
+  color: white;
+}
+
+.portfolio a {
+  color: black;
+}
+
+footer {
+  background-color: #1884a5;
+  color: white;
+}
