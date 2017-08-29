@@ -15,16 +15,36 @@
  margin-top: 1em;
 }
 
+
+
 ul {
   list-style-type: none;
   overflow: hidden;
 }
 
-li {
-  display: inline;
+.homebar {
+  word-spacing: 25px;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
-li h1 {
+.homebar h1 {
+  display: inline;
+  word-spacing: normal;
+  font-size: 1.5em;
+}
+
+.about h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.about p {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+li {
   display: inline;
 }
 
@@ -32,7 +52,6 @@ li a {
   display: inline;
   padding: 5px;
   text-decoration: none;
-  display: inline;
 }
 
 li a:hover {
@@ -44,8 +63,30 @@ li a:hover {
   height: 40%;
 }
 
+.portfolio h1 {
+  text-align: center;
+}
+
+.skills {
+  text-align: center;
+  word-spacing: 10px;
+  font-size: 1.5em;
+}
+
+.skills h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+
+
 .contact img {
   width: 5%;
   height: 5%;
   display: inline-block;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
 }
