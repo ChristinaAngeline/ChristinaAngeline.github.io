@@ -13,35 +13,26 @@
  max-width: 100%;
  border-radius: 100%;
  margin-top: 1em;
+ margin: auto;
 }
 
-
-
-ul {
-  list-style-type: none;
-  overflow: hidden;
-}
-
-.homebar {
-  word-spacing: 25px;
-  font-weight: bold;
-  font-size: 1.5em;
-}
-
-.homebar h1 {
-  display: inline;
-  word-spacing: normal;
-  font-size: 1.5em;
-}
-
-.about h1 {
+h1 {
   text-align: center;
   font-size: 2em;
 }
 
-.about p {
+h2 {
   text-align: center;
-  font-size: 1.5em;
+}
+
+img {
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
 }
 
 li {
@@ -50,7 +41,6 @@ li {
 
 li a {
   display: inline;
-  padding: 5px;
   text-decoration: none;
 }
 
@@ -58,35 +48,46 @@ li a:hover {
   text-decoration: underline;
 }
 
+a {
+  display: inline;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.portfolio a {
+  color: blue;
+}
+
 .portfolio img {
+  width: 80%;
+}
+
+table {
+  text-align: center;
+  margin: auto;
+}
+
+table img {
+  width: 25%;
+}
+
+.homebar {
+ text-align: center;
+ word-spacing: 2em;
+ font-size: 1.5em;
+ font-weight: bold;
+}
+
+
+/*.portfolio img {
   width: 40%;
   height: 40%;
-}
-
-.portfolio h1 {
-  text-align: center;
-}
+}*/
 
 .skills {
-  text-align: center;
-  word-spacing: 10px;
+  word-spacing: 1.5em;
   font-size: 1.5em;
-}
-
-.skills h1 {
-  text-align: center;
-  font-size: 1.5em;
-}
-
-
-
-.contact img {
-  width: 5%;
-  height: 5%;
-  display: inline-block;
-  text-align: center;
-}
-
-.contact {
-  text-align: center;
 }
