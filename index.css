@@ -31,9 +31,6 @@ h2 {
   font-size: 40px;
 }
 
-img {
-  margin: auto;
-}
 
 ul {
   list-style-type: none;
@@ -68,6 +65,7 @@ a:hover {
   padding: 5px;
   width-max: 100%;
   font-size: 24px;
+  font-weight: bold;
 }
 
 .portfolio img {
@@ -87,8 +85,6 @@ a:hover {
   margin: 0 auto;
   text-align: center;
 }
-
-
 
 .contact {
   display: -webkit-flex;
@@ -125,11 +121,6 @@ a:hover {
  font-weight: bold;
 }
 
-
-/*.portfolio img {
-  width: 40%;
-  height: 40%;
-}*/
 
 .skills {
 
