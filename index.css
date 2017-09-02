@@ -49,7 +49,6 @@ li a:hover {
 }
 
 a {
-  display: inline;
   text-decoration: none;
 }
 
@@ -58,7 +57,7 @@ a:hover {
 }
 
 .portfolio a {
-  color: blue;
+
 }
 
 .portfolio img {
@@ -73,6 +72,25 @@ table {
 table img {
   width: 25%;
 }
+
+.contact {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+}
+
+.contact img {
+  display: -webkit-flex;
+  display: flex;
+  width: 40%;
+  height: 40%;
+}
+
+.contact-item {
+  margin: 0 auto;
+  text-align: center;
+}
+
 
 .homebar {
  text-align: center;
