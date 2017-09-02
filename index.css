@@ -56,22 +56,35 @@ a:hover {
   text-decoration: underline;
 }
 
-.portfolio a {
-
+.portfolio  {
+  display: -webkit-flex;
+  display: flex;
+  padding: 5px;
+  width-max: 100%;
+  font-size: 24px;
 }
 
 .portfolio img {
-  width: 80%;
-}
-
-table {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 400px;
+  max-width: 100%;
+  margin-top: 1em;
+  margin: 0 auto;
+  padding: 5px;
   text-align: center;
-  margin: auto;
 }
 
-table img {
-  width: 25%;
+.portfolio-item {
+
+  margin: 0 auto;
+  text-align: center;
+
 }
+
+
 
 .contact {
   display: -webkit-flex;
@@ -106,6 +119,7 @@ table img {
 }*/
 
 .skills {
+
   word-spacing: 1.5em;
   font-size: 1.5em;
 }
