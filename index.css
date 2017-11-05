@@ -1,34 +1,55 @@
 * {
-  color: white;
-  background-color: #1884a5;
+  margin: 0
+}
+*, body {
+  box-sizing: border-box;
 }
 
-.profile-picture {
- background-image: url('./images/profilepicture.jpg');
- background-position: center;
- background-size: cover;
- background-repeat: no-repeat;
- height: 300px;
- width: 300px;
- max-width: 100%;
- border-radius: 100%;
- border: 2px solid white;
- margin-top: 1em;
- margin: auto;
+.section-container-home {
+  max-width: 100%;
+  max-height: 100%;
+  /*width: 1440px;
+  height: 1024px;*/
+  background-image: url('./images/splashPage.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
 }
 
-h1 {
-  text-align: center;
-  border-top: 2px solid white;
+.teal-overlay {
+	background: rgba(66,190,186,0.4);
 }
 
-h2 {
-  text-align: center;
+.section-container-home .homebar ul{
+ text-align: left;
+ font-weight: bold;
+ word-spacing: 2em;
+ font-size: 25px;
+ font-weight: bold;
 }
 
+/*About Me*/
 .fancyName {
-  text-align: center;
+  color: white;
+  text-align: left;
   font-size: 40px;
+  word-spacing: 2px;
+  padding-left: 3%;
+  padding-top: 5%;
+}
+
+.aboutMe {
+  text-align: left;
+  color: white;
+  padding-left: 3%;
+  width: 75%;
+}
+
+.roleTitle {
+  width: 100%;
+  padding-left: 3%;
+  color: white;
 }
 
 
@@ -42,12 +63,13 @@ li {
   display: inline;
 }
 
-li a {
+a {
   display: inline;
   text-decoration: none;
+  color: white;
 }
 
-li a:hover {
+a:hover {
   text-decoration: underline;
 }
 
@@ -59,13 +81,14 @@ a:hover {
   text-decoration: underline;
 }
 
-.portfolio  {
-  display: -webkit-flex;
-  display: flex;
-  padding: 5px;
-  width-max: 100%;
-  font-size: 24px;
-  font-weight: bold;
+
+.section-container-portfolio {
+  background: #42beba;
+  color: white;
+}
+
+.portfolio-heading {
+  text-align: center;
 }
 
 .portfolio img {
@@ -81,20 +104,58 @@ a:hover {
   border: 3px solid white;
 }
 
+
+.portfolio-item-container {
+  display: -webkit-flex;
+  display: flex;
+  padding: 5px;
+  width-max: 100%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.project-title {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
 .portfolio-item {
   margin: 0 auto;
   text-align: center;
 }
 
-.contact {
-  display: -webkit-flex;
-  display: flex;
-  padding: 5px;
-  width-max: 100%;
-  font-size: 20px;
+.project-picture {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 400px;
+  max-width: 100%;
+  margin-top: 1em;
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid white;
+}
+.section-container-contact{
+  background: #415f83;
+}
+.contact-heading {
+  text-align: center;
+  color: white;
 }
 
-.contact img {
+.contact-item-container {
+  display: -webkit-flex;
+  display: flex;
+  width-max: 100%;
+  font-size: 20px;
+  color: white;
+  padding-bottom: 10%;
+}
+
+.contact-picture-container img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -105,7 +166,6 @@ a:hover {
   margin: 0 auto;
   padding: 5px;
   text-align: center;
-
 }
 
 .contact-item {
@@ -113,17 +173,36 @@ a:hover {
   text-align: center;
 }
 
-
-.homebar {
- text-align: center;
- word-spacing: 2em;
- font-size: 1.5em;
- font-weight: bold;
+.profile-picture {
+ background-image: url('./images/profilepicture.jpg');
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 250px;
+ width: 250px;
+ max-width: 100%;
+ border-radius: 100%;
+ margin-top: 1em;
+ margin: auto;
 }
 
-
 .skills {
-
+  color: white;
+  text-align: center;
   word-spacing: 1.5em;
   font-size: 1.5em;
+  background: #deecc6;
+}
+
+.skills img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 10%;
+  width: 10%;
+  max-width: 100%;
+  margin-top: 1em;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
 }
