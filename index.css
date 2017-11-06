@@ -8,25 +8,26 @@
 .section-container-home {
   max-width: 100%;
   max-height: 100%;
-  /*width: 1440px;
-  height: 1024px;*/
   background-image: url('./images/splashPage.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 
 .teal-overlay {
 	background: rgba(66,190,186,0.4);
 }
 
-.section-container-home .homebar ul{
+ .homebar ul {
  text-align: left;
- font-weight: bold;
  word-spacing: 2em;
- font-size: 25px;
- font-weight: bold;
+}
+
+.homebar a {
+  font-family: Avenir;
+  color: #4a4a4b;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 /*About Me*/
@@ -47,7 +48,6 @@
 }
 
 .roleTitle {
-  width: 100%;
   padding-left: 3%;
   color: white;
 }
@@ -109,13 +109,11 @@ a:hover {
   display: -webkit-flex;
   display: flex;
   padding: 5px;
-  width-max: 100%;
   font-size: 24px;
   font-weight: bold;
 }
 
 .project-title {
-  display: flex;
   justify-content: center;
   align-self: center;
   margin-bottom: 20px;
@@ -139,6 +137,7 @@ a:hover {
   border: 3px solid white;
 }
 .section-container-contact{
+
   background: #415f83;
 }
 .contact-heading {
@@ -154,6 +153,18 @@ a:hover {
   color: white;
   padding-bottom: 10%;
 }
+
+
+/*.contact-form input {
+  height: 20px;
+  width: 200px;
+  padding: 5px 10px;
+  columns: 2;
+}
+
+.contact-form textarea {
+  align-items: center;
+}*/
 
 .contact-picture-container img {
   background-position: center;
