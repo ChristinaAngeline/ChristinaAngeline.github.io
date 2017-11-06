@@ -3,6 +3,7 @@
 }
 *, body {
   box-sizing: border-box;
+  font-family: Avenir;
 }
 
 .section-container-home {
@@ -21,11 +22,10 @@
  .homebar ul {
  text-align: left;
  word-spacing: 2em;
+ padding-top: 2%;
 }
 
 .homebar a {
-  font-family: Avenir;
-  color: #4a4a4b;
   font-size: 30px;
   font-weight: bold;
 }
@@ -44,6 +44,7 @@
   text-align: left;
   color: white;
   padding-left: 3%;
+  padding-bottom: 5%;
   width: 75%;
 }
 
@@ -89,6 +90,7 @@ a:hover {
 
 .portfolio-heading {
   text-align: center;
+  padding-top: 5%;
 }
 
 .portfolio img {
@@ -102,13 +104,13 @@ a:hover {
   margin: 0 auto;
   text-align: center;
   border: 3px solid white;
+
 }
 
 
 .portfolio-item-container {
   display: -webkit-flex;
   display: flex;
-  padding: 5px;
   font-size: 24px;
   font-weight: bold;
 }
@@ -137,12 +139,13 @@ a:hover {
   border: 3px solid white;
 }
 .section-container-contact{
-
   background: #415f83;
 }
 .contact-heading {
   text-align: center;
   color: white;
+  padding-top: 5%;
+  padding-bottom: 3%;
 }
 
 .contact-item-container {
@@ -182,6 +185,7 @@ a:hover {
 .contact-item {
   margin: 0 auto;
   text-align: center;
+  padding-top: 5%;
 }
 
 .profile-picture {
@@ -198,11 +202,9 @@ a:hover {
 }
 
 .skills {
-  color: white;
   text-align: center;
-  word-spacing: 1.5em;
-  font-size: 1.5em;
   background: #deecc6;
+  color: #4a4a4a;
 }
 
 .skills img {
