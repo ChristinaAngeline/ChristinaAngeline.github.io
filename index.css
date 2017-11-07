@@ -44,7 +44,7 @@
   text-align: left;
   color: white;
   padding-left: 3%;
-  padding-bottom: 5%;
+  padding-bottom: 6%;
   width: 75%;
 }
 
@@ -88,7 +88,7 @@ a:hover {
 
 .portfolio-heading {
   text-align: center;
-  padding-top: 5%;
+  padding-top: 2%;
 }
 
 .portfolio img {
@@ -109,6 +109,7 @@ a:hover {
   display: flex;
   font-size: 24px;
   font-weight: bold;
+  padding-bottom: 3%;
 }
 
 .project-title {
@@ -135,13 +136,12 @@ a:hover {
   border: 3px solid white;
 }
 .section-container-contact{
-  /*background: #415f83;*/
   background: 	#107dac;
 }
 .contact-heading {
   text-align: center;
   color: white;
-  padding-top: 5%;
+  padding-top: 2%;
   padding-bottom: 3%;
 }
 
@@ -151,11 +151,11 @@ a:hover {
   width-max: 100%;
   font-size: 20px;
   color: white;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
 }
 
 .contact-form {
-  padding-top: 3%;
+  padding-top: 2%;
   padding-bottom: 2%;
 }
 
@@ -203,13 +203,12 @@ a:hover {
 
 .footer {
     background: #415f83;
-    padding-top: 3%;
+    padding-top: 1%;
 }
 
 .contact-item {
   margin: 0 auto;
   text-align: center;
-  /*padding-top: 5%;*/
 }
 
 .profile-picture {
@@ -229,6 +228,7 @@ a:hover {
   text-align: center;
   background: #deecc6;
   color: #4a4a4a;
+  padding-bottom: 1%;
 }
 
 .skills img {
