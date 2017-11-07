@@ -19,7 +19,7 @@
 	background: rgba(66,190,186,0.4);
 }
 
- .homebar ul {
+.homebar ul {
  text-align: left;
  word-spacing: 2em;
  padding-top: 2%;
@@ -53,7 +53,6 @@
   color: white;
 }
 
-
 ul {
   list-style-type: none;
   overflow: hidden;
@@ -82,7 +81,6 @@ a:hover {
   text-decoration: underline;
 }
 
-
 .section-container-portfolio {
   background: #42beba;
   color: white;
@@ -104,9 +102,7 @@ a:hover {
   margin: 0 auto;
   text-align: center;
   border: 3px solid white;
-
 }
-
 
 .portfolio-item-container {
   display: -webkit-flex;
@@ -139,7 +135,8 @@ a:hover {
   border: 3px solid white;
 }
 .section-container-contact{
-  background: #415f83;
+  /*background: #415f83;*/
+  background: 	#107dac;
 }
 .contact-heading {
   text-align: center;
@@ -154,20 +151,42 @@ a:hover {
   width-max: 100%;
   font-size: 20px;
   color: white;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
+.contact-form {
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
 
-/*.contact-form input {
-  height: 20px;
-  width: 200px;
-  padding: 5px 10px;
-  columns: 2;
+.contact-form input {
+  display: -webkit-flex;
+  display: flex;
+  margin: 1% auto;
+  text-align: left;
+  width: 50%;
 }
 
 .contact-form textarea {
-  align-items: center;
-}*/
+  display: -webkit-flex;
+  display: flex;
+  margin: 1% auto;
+  text-align: left;
+  width: 50%;
+}
+
+.contact-form button {
+  display: -webkit-flex;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  width: 10%;
+  border-radius: 2em;
+  font-weight: bold;
+  font-size: 100%;
+  background-color: #42beba;
+  padding-left: 3%;
+}
 
 .contact-picture-container img {
   background-position: center;
@@ -182,10 +201,15 @@ a:hover {
   text-align: center;
 }
 
+.footer {
+    background: #415f83;
+    padding-top: 3%;
+}
+
 .contact-item {
   margin: 0 auto;
   text-align: center;
-  padding-top: 5%;
+  /*padding-top: 5%;*/
 }
 
 .profile-picture {
