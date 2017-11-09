@@ -218,9 +218,9 @@ a:hover {
   display: -webkit-flex;
   display: flex;
   width-max: 100%;
-  font-size: 20px;
   color: white;
   padding-bottom: 2%;
+  padding-left: 3%;
 }
 
 .contact-picture-container img {
@@ -240,5 +240,5 @@ a:hover {
 .contact-item {
   margin: 0 auto;
   text-align: center;
-  font-size: 75%;
+  font-size: 100%;
 }
