@@ -16,7 +16,4 @@
     "url": "https://github.com/ChristinaAngeline/ChristinaAngeline.github.io/issues"
   },
   "homepage": "https://github.com/ChristinaAngeline/ChristinaAngeline.github.io#readme",
-  "dependencies": {
-    "nodemailer": "^4.3.1"
-  }
 }
