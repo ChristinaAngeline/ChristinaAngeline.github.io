@@ -159,7 +159,7 @@ a:hover {
   padding-bottom: 3%;
 }
 
-/*portfolio picture*/
+/*portfolio */
 .profile-picture {
  background-image: url('./images/profilepicture.jpg');
  background-position: center;
@@ -234,4 +234,11 @@ a:hover {
   margin: 0 auto;
   padding: 5px;
   text-align: center;
+}
+
+
+.contact-item {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 75%;
 }
