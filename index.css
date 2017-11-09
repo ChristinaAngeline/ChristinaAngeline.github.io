@@ -6,53 +6,6 @@
   font-family: Avenir;
 }
 
-.section-container-home {
-  max-width: 100%;
-  max-height: 100%;
-  background-image: url('./images/splashPage.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.teal-overlay {
-	background: rgba(66,190,186,0.4);
-}
-
-.homebar ul {
- text-align: left;
- word-spacing: 2em;
- padding-top: 2%;
-}
-
-.homebar a {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-/*About Me*/
-.fancyName {
-  color: white;
-  text-align: left;
-  font-size: 40px;
-  word-spacing: 2px;
-  padding-left: 3%;
-  padding-top: 5%;
-}
-
-.aboutMe {
-  text-align: left;
-  color: white;
-  padding-left: 3%;
-  padding-bottom: 6%;
-  width: 75%;
-}
-
-.roleTitle {
-  padding-left: 3%;
-  color: white;
-}
-
 ul {
   list-style-type: none;
   overflow: hidden;
@@ -81,6 +34,57 @@ a:hover {
   text-decoration: underline;
 }
 
+/*home page*/
+
+.section-container-home {
+  max-width: 100%;
+  max-height: 100%;
+  background-image: url('./images/splashPage.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.teal-overlay {
+	background: rgba(66,190,186,0.4);
+}
+
+.homebar ul {
+ text-align: left;
+ word-spacing: 2em;
+ padding-top: 2%;
+}
+
+.homebar a {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+/*About Me*/
+.fancyName {
+  color: white;
+  text-align: left;
+  font-size: 40px;
+  word-spacing: 2px;
+  padding-left: 3%;
+  padding-top: 5%;
+}
+
+.roleTitle {
+  padding-left: 3%;
+  color: white;
+}
+
+.aboutMe {
+  text-align: left;
+  color: white;
+  padding-left: 3%;
+  padding-bottom: 6%;
+  width: 75%;
+}
+
+/*portfolio*/
 .section-container-portfolio {
   background: #42beba;
   color: white;
@@ -91,19 +95,6 @@ a:hover {
   padding-top: 2%;
 }
 
-.portfolio img {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: 400px;
-  max-width: 100%;
-  margin-top: 1em;
-  margin: 0 auto;
-  text-align: center;
-  border: 3px solid white;
-}
-
 .portfolio-item-container {
   display: -webkit-flex;
   display: flex;
@@ -112,15 +103,15 @@ a:hover {
   padding-bottom: 3%;
 }
 
+.portfolio-item {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .project-title {
   justify-content: center;
   align-self: center;
   margin-bottom: 20px;
-}
-
-.portfolio-item {
-  margin: 0 auto;
-  text-align: center;
 }
 
 .project-picture {
@@ -135,6 +126,29 @@ a:hover {
   text-align: center;
   border: 3px solid white;
 }
+
+/*Skills Section*/
+.skills {
+  text-align: center;
+  background: #deecc6;
+  color: #4a4a4a;
+  padding-bottom: 1%;
+}
+
+.skills img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 10%;
+  width: 10%;
+  max-width: 100%;
+  margin-top: 1em;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+}
+
+
 .section-container-contact{
   background: 	#107dac;
 }
@@ -201,10 +215,6 @@ a:hover {
   text-align: center;
 }
 
-.footer {
-    background: #415f83;
-    padding-top: 1%;
-}
 
 .contact-item {
   margin: 0 auto;
@@ -224,22 +234,7 @@ a:hover {
  margin: auto;
 }
 
-.skills {
-  text-align: center;
-  background: #deecc6;
-  color: #4a4a4a;
-  padding-bottom: 1%;
-}
-
-.skills img {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 10%;
-  width: 10%;
-  max-width: 100%;
-  margin-top: 1em;
-  margin: 0 auto;
-  padding: 5px;
-  text-align: center;
+.footer {
+ background: #415f83;
+ padding-top: 1%;
 }
